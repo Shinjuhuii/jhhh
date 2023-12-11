@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: 'CustomFont'; 
-  src: url('한국기계연구원_bold.ttf') format('truetype'); 
-  font-weight: bold; 
+  font-family: 'KIMM_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 body {
-  font-family: 'CustomFont', sans-serif; 
+  font-family: 'KIMM_Bold', sans-serif; 
 }
 
 
@@ -660,7 +661,6 @@ border-collapse: collapse;
 td {
 padding-left: 10px;
 padding-top: 30px;
-border:1px solid #e70e0e;
 }
 
 .left-bottom-align {
@@ -749,5 +749,3 @@ height: 50px;
 }
 
 }
-
-
