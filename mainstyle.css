@@ -640,15 +640,9 @@ body, html {
     top: 1665px;
 }
 
-.head1-1 {
-    font-size: 24px;
-    margin-left: 180px;
-    margin-top: 20px;
-}
 .head1-1-1 {
   margin-left: 180px;
-  margin-top: 320px;
-  margin-bottom: 90px;
+  margin-top: -600px;
 
 
   font-size: 3em;
@@ -677,21 +671,21 @@ body, html {
 
 .head3 {
   font-size: 6em;
-  margin-left: 1120px;
+  margin-left: 1070px;
   margin-top: 0px;
 }
 
 .head2-2 {
     font-size: 3em;
-    margin-left: 180px;
-    top: 2469px;
+    margin-left: 580px;
+    margin-top: 399px;
     color: #F5F5F5;
     line-height: 1.2; 
  }
 .head2-3 {
     font-size: 3em;
-    margin-left: 180px;
-    top: 295px;
+    margin-left: 580px;
+    top: 305px;
     color: #F5F5F5;
 
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
@@ -702,15 +696,20 @@ body, html {
 
     line-height: 1.5; 
 }
+.head1-1 {
+  font-size: 24px;
+  margin-left: 180px;
+  padding-top: 640px;
+}
 .imgs {
     position: relative; 
 }
 
 .imgs img {
     position: absolute; 
-    top: 720px; 
+    top: 100px; 
     margin-left: 740px;
-    width: 860px; 
+    width: 800px; 
     height: auto; 
 }
 .head1, .head2, .head3, .head1-1-1, .head2-2, .head2-3, .head1-1{
@@ -876,6 +875,7 @@ border-collapse: collapse;
 td {
 padding-left: 10px;
 padding-top: 30px;
+border:1px solid #e70e0e;
 }
 
 .left-bottom-align {
@@ -964,3 +964,4 @@ height: 50px;
 }
 
 }
+
