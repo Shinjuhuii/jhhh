@@ -20,11 +20,6 @@ width:100%;
 overflow-x:hidden;
 }
 
-
-div{
-  border: solid 1px red;
-}
-
   /* 예시: div에 실선 테두리 추가 */
 /* 모든 div에 실선 추가 */
 
@@ -653,7 +648,7 @@ body, html {
 .head1-1-1 {
   margin-left: 180px;
   margin-top: 350px;
-
+  margin-bottom: 90px;
 
 
   font-size: 3em;
@@ -668,31 +663,35 @@ body, html {
   line-height: 1.5; 
 }
 .head1 {
-  position: relative;
-  top: -30px; /* 원하는 만큼의 이동 */
+  font-size: 24px;
+  margin-left: 180px;
+  margin-top: -600px;
 }
 
+
 .head2 {
-  position: relative;
-  top: -30px; /* 다른 값으로 조정 */
+  font-size: 6em;
+  margin-left: 580px;
+  padding-top: -500px;
 }
 
 .head3 {
-  position: relative;
-  top: -30px; /* 원하는 만큼의 이동 */
+  font-size: 6em;
+  margin-left: 1120px;
+  margin-top: 0px;
 }
 
 .head2-2 {
     font-size: 3em;
-    margin-left: 580px;
+    margin-left: 180px;
     top: 2469px;
     color: #F5F5F5;
     line-height: 1.2; 
  }
 .head2-3 {
     font-size: 3em;
-    margin-left: 580px;
-    top: 2595px;
+    margin-left: 180px;
+    top: 295px;
     color: #F5F5F5;
 
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
@@ -709,9 +708,9 @@ body, html {
 
 .imgs img {
     position: absolute; 
-    top: 480px; 
-    right: 0; 
-    width: 790px; 
+    top: 700px; 
+    margin-left: 590px;
+    width: 1010px; 
     height: auto; 
 }
 .head1, .head2, .head3, .head1-1-1, .head2-2, .head2-3, .head1-1{
@@ -728,12 +727,12 @@ body, html {
   .head2{
     font-size: 22pt;
     margin-left: 30px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
   .head2-2{
     font-size: 21pt;
     margin-left: 30px;
-    margin-top: 165px;
+    padding-top: 205px;
   }
   .head3{
     font-size: 22pt;
@@ -743,7 +742,7 @@ body, html {
   .head1-1{
     font-size: 9pt;
     margin-left: 30px;
-
+    margin-top: 310px;
   }
   .head2-3{
     font-size: 8.5pt;
@@ -753,12 +752,12 @@ body, html {
   .head1-1-1{
     font-size: 8.5pt;
     margin-left: 30px;
-    margin-top: -265px;
+    margin-top: -305px;
   }
   .imgs img{
     width: 92%;
     margin-left: 30px;
-    margin-top: -285px;
+    margin-top: -170px;
   }
 }
 
@@ -767,16 +766,14 @@ body, html {
 /* 기본 이미지 스타일 */
 
 .tech2 {
-  width: 100%;
+  height: 1800px;
   background-image: url('https://i.postimg.cc/9FqvVdbj/Group-11.png');
   background-size: cover;
-  background-position: center;
-  height: 2000px; /* 기본 높이 */
 }
 @media screen and (max-width: 400px) {
   .tech2{
     width: 100%;
-    height: 1200px;
+    height: 1400px;
   }
 }
 
@@ -968,4 +965,3 @@ height: 50px;
 }
 
 }
-
