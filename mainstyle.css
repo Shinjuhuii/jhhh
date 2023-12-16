@@ -14,13 +14,7 @@
   body {
     font-family: 'KIMM_Bold', sans-serif;
   }
-  html,
-body{
-width:100%;
-}
-
   /* 예시: div에 실선 테두리 추가 */
-/* 모든 div에 실선 추가 */
 
 
 /* 헤드css */
@@ -143,6 +137,13 @@ width:100%;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+}
+@media screen and (max-width: 400px) {
+  /* 400px 이하의 화면에 대한 스타일 */
+  body {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .dropdown-content a:hover {
@@ -311,12 +312,14 @@ body, html {
       font-size: 1.3em; /* 작은 크기로 설정 */
       margin-top: 0px; /* 아래쪽 간격을 조정합니다 */
       left: 165px; /* 왼쪽으로부터의 간격 조정 */
+      margin-left: 65px;
   }
 
   .overlay h1 {
       font-size: 2.2em; /* 작은 크기로 설정 */
       margin-top: -35px; /* 아래쪽 간격을 조정합니다 */
       left: -10px; /* 왼쪽으로부터의 간격 조정 */
+      margin-left: 65px;
   }
 }
 
@@ -325,7 +328,7 @@ body, html {
 /*메인 영상크키 줄이기 쿼리*/
 @media screen and (max-width: 400px) {
   .video-background {
-      width: 200%; /* 비디오의 너비를 조정 */
+      width: 385px; /* 비디오의 너비를 조정 */
       height: 85%; /* 비디오의 높이를 조정 */
       /* 다른 스타일 */
   }
@@ -406,6 +409,9 @@ body, html {
 @media screen and (max-width: 400px) {
   .image-container.main1 p {
     font-size: 14px; /* 작은 화면에서 원하는 크기로 설정 */
+  }
+  .image-caption{
+    margin: -900px;
   }
 }
 
@@ -730,7 +736,7 @@ body, html {
   .head2-2{
     font-size: 21pt;
     margin-left: 30px;
-    padding-top: 205px;
+    top: 520px;
   }
   .head3{
     font-size: 22pt;
@@ -740,22 +746,22 @@ body, html {
   .head1-1{
     font-size: 9pt;
     margin-left: 30px;
-    margin-top: 310px;
+    top: 425px;
   }
   .head2-3{
     font-size: 8.5pt;
     margin-left: 30px;
-    margin-top: 30px;
+    top: 230px;
   }
   .head1-1-1{
     font-size: 8.5pt;
     margin-left: 30px;
-    margin-top: -305px;
+    top: 1190px;
   }
   .imgs img{
     width: 92%;
     margin-left: 30px;
-    margin-top: -170px;
+    margin-top: -40px;
   }
 }
 
@@ -771,7 +777,7 @@ body, html {
 @media screen and (max-width: 400px) {
   .tech2{
     width: 100%;
-    height: 1400px;
+    height: 1450px;
   }
 }
 
@@ -815,19 +821,23 @@ body, html {
 }
 @media screen and (max-width: 400px) {
   .new-div img{
-    margin-top: 10px; 
+    margin-top: 30px; 
+    margin-bottom: -30px;
   }
 
 }
+hr{
+  margin-top: -40px;
+}
 .new-div p {
     text-align: center; 
-    font-size: 24px; 
-    margin-top: 40px; 
+    font-size: 44px; 
+    padding-top: 50px; 
 }
 .new-div a {
   text-align: center; 
   font-size: 24px; 
-  margin-top: 40px; 
+  top: 50px;
 }
 @media screen and (max-width: 400px) {
   .new-div p{
@@ -899,6 +909,10 @@ background-color: #ffffff;
 width: 100%;
 height: 50px;
 }
+.room2{
+  width: 100px;
+  height: 100px;
+}
 .ttt{
   width:550px;
 }
@@ -924,6 +938,10 @@ height: 50px;
   }
   .ttt{
       width: 345px;
+      height: 170px;
+  }
+  .room2{
+    height: 60px;
   }
 /* 화면이 768px 미만일 때 */
 @media screen and (max-width: 400px) {
@@ -931,11 +949,12 @@ height: 50px;
   .logogo {
       display: table-cell !important;
       text-align: initial !important;
-      width: 190px;
+      width: 180px;
   }
   .lin img{
       width: 120%;
   }
+
   .logogo img{
       width: 70%;
       padding-left: 40px;
@@ -952,7 +971,8 @@ height: 50px;
 /* 글씨 */
 @media screen and (max-width: 400px) {
   td[style="width: 640px;"] {
-      font-size: 60px; /* 폰트 크기 조정 */
+      font-size: 45px; /* 폰트 크기 조정 */
+      height: 90px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -962,3 +982,4 @@ height: 50px;
 }
 
 }
+
