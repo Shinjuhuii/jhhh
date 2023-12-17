@@ -289,16 +289,16 @@ body, html {
   }
   .overlay h2 {
     color: white;
-    font-size: 4em;
+    font-size: 3.5em;
     position: absolute;
-    top: 630px; 
+    top: 570px; 
     right: 140px 
   }
   .overlay h1 {
     color: white;
-    font-size: 6.5em;
+    font-size: 5.5em;
     position: absolute;
-    top: 690px; 
+    top: 630px; 
     right: 140px; 
   }
 
