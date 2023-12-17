@@ -2,7 +2,6 @@
     margin: auto;
     padding: 0;
     box-sizing: border-box;
-    overflow-x:hidden;
 }
 @font-face {
   font-family: 'KIMM_Bold';
@@ -14,6 +13,7 @@
   
   body {
     font-family: 'KIMM_Bold', sans-serif;
+          overflow-x:hidden;
   }
   /* 예시: div에 실선 테두리 추가 */
 
