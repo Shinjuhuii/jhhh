@@ -304,7 +304,7 @@ body, html {
     margin: 0;
   }
   p.in2{
-    margin-top: 240px;
+    margin-top: 470px;
   }
   hr{
     width:20%; 
@@ -469,13 +469,23 @@ a:hover h2, a:hover p{
 }
 /* 기본 스타일 */
 
-.devel p {
+.devel .overlay p {
   width: 100%;
   text-align: center;
   padding-top: 130px;
-  font-size: 30px;
+  font-size: 6px;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
+  Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", 
+  "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    
 }
-
+.ta p{
+  padding-top: 230px;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
+Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", 
+"Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size:15pt;
+}
 .frame {
   width: 100%; /* 변경된 부분 */
   max-width: 1160px; /* 변경된 부분 */
@@ -505,6 +515,10 @@ a:hover h2, a:hover p{
   }
   a.overlay{
     width: 140px;
+  }
+  .ta p{
+    font-size: 7pt;
+    margin-top: -130px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -569,7 +583,7 @@ a .overlay p {
 
 
 .last {
-  margin-top: 250px;
+  margin-top: 140px;
   position: relative;
   text-align: center;
 }
@@ -620,7 +634,7 @@ a .overlay p {
   font-size: 14pt;
   }
   .last img{
-      margin-top: -30px;
+      margin-top: -100px;
   }
   .map p{
       font-size: 14pt;
