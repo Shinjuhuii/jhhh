@@ -322,7 +322,7 @@ body, html {
 }
 @media screen and (min-width: 400px) {
     .video-background img {
-        width: 100%; /* 큰 화면일 때 width 100%로 설정 */
+        width: 400px; /* 큰 화면일 때 width 100%로 설정 */
         height: 100%;
     }
 }
