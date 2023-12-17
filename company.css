@@ -323,6 +323,7 @@ body, html {
 @media screen and (min-width: 400px) {
     .video-background img {
         width: 100%; /* 큰 화면일 때 width 100%로 설정 */
+        height: 100%;
     }
 }
 .overla2 {
@@ -358,7 +359,7 @@ body, html {
 }
 @media screen and (max-width: 400px) {
   .devel p{
-      margin-top: -10%;
+    padding-top: 60px;
   }    
   .devel p{
       font-size: 18pt;
@@ -498,8 +499,8 @@ Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
 /* 작은 화면에 대한 미디어 쿼리 */
 @media screen and (max-width: 400px) {
   .devel p {
-      margin-top: -20%;
       font-size: 14pt;
+      padding: -100;
   }
   .frame{
       width: 600px;
