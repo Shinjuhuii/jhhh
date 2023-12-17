@@ -259,22 +259,13 @@ body, html {
   object-fit: cover;
 }
 
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+
   
-  .video-container video {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+
   .overla2 {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 1900px;
     display: flex;
 
     text-align: center;
@@ -284,9 +275,9 @@ body, html {
     color: rgb(255, 255, 255);
     font-size: 6.5em;
     position: absolute;
-    top: 41%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 38%;
+    left: 28%;
+
   }
   .overla2 p{
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
