@@ -326,7 +326,7 @@ body, html {
 }
 .overla2 {
     width: 100%; /* div의 너비를 조정 */
-    height: 879px; /* div의 높이를 조정 */
+    height: 1079px; /* div의 높이를 조정 */
 }
 }
 
@@ -560,7 +560,7 @@ a .overlay p {
 }
 .overla2 h1 {
   font-size: 2em;
-  margin-top: -30px;
+  margin-top: -110px;
 }
 .overla2 .in1{
     font-size: 6pt;
