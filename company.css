@@ -241,6 +241,7 @@ body {
 
 
 body, html {
+    width: 100%;
     height: 100%;
     margin: 0;
 }
@@ -275,9 +276,7 @@ body, html {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     text-align: center;
     color: white;
 }
@@ -288,7 +287,6 @@ body, html {
     top: 41%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* 이미지 위로 올라오도록 z-index 설정 */
   }
   .overla2 p{
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
