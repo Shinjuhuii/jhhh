@@ -314,7 +314,7 @@ width:100%;
     .white-boxes {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 40px; /* 필요에 따라 위 여백 조정 */
+        margin-top: -120px; /* 필요에 따라 위 여백 조정 */
         text-align: left;
     }
     
