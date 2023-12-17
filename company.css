@@ -299,46 +299,18 @@ body, html {
     line-height: 1.5; 
   }
   p.in1{
-    padding-top: 940px;
+    padding-top: 1000px;
     margin-bottom: 10px;
     margin: 0;
   }
   p.in2{
-    margin-top: 130px;
+    margin-top: 240px;
   }
   hr{
     width:20%; 
     margin-top: 200px;
   }
 
-/*메인글씨 쿼리*/
-@media screen and (max-width: 400px) {
-  .overla2 h2 h1  {
-    font-size: 2.5em;
-  }
-.overla2 h2 {
-  font-size: 2.5em;
-}
-.overla2 h1 {
-  font-size: 2em;
-  margin-top: -40px;
-}
-hr{
-  margin-top: 90px;
-  width: 40%;
-}
-.overla2 .in1{
-    font-size: 6pt;
-    margin-top: 320px;
-    margin-bottom: 60px;
-    padding: 10px;
-}
-.overla2 .in2{
-    font-size: 8pt;
-    margin-top: 210px;
-    padding: 0;
-}
-}
 
 
 /*메인 영상크키 줄이기 쿼리*/
@@ -516,7 +488,7 @@ a:hover h2, a:hover p{
 /* 작은 화면에 대한 미디어 쿼리 */
 @media screen and (max-width: 400px) {
   .devel p {
-      margin-top: -10%;
+      margin-top: -20%;
       font-size: 14pt;
   }
   .frame{
@@ -530,7 +502,9 @@ a:hover h2, a:hover p{
   a .overlay h2{
       font-size: 10pt;
       margin-bottom: -10px;
-
+  }
+  a.overlay{
+    width: 140px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -562,9 +536,31 @@ a .overlay p {
     margin-top: -100px;
     font-size: 4pt;
 }
-
 }
-
+/*메인글씨 쿼리*/
+@media screen and (max-width: 400px) {
+  .overla2 h2 h1  {
+    font-size: 2.5em;
+  }
+.overla2 h2 {
+  font-size: 2.5em;
+}
+.overla2 h1 {
+  font-size: 2em;
+  margin-top: 5px;
+}
+.overla2 .in1{
+    font-size: 6pt;
+    margin-top: 380px;
+    margin-bottom: -35px;
+    padding: 10px;
+}
+.overla2 .in2{
+    font-size: 6.3pt;
+    margin-top: 260px;
+    padding: 0;
+}
+}
 
 
 
@@ -638,12 +634,21 @@ a .overlay p {
   }
 }
 
-
-
+hr.sss{
+  margin-top: 90px;
+  width: 230px;
+}
 hr {
   width: 78%;
 }
 
+
+@media screen and (max-width: 400px) {
+hr.sss{
+  top: -990px;
+  width: 90px;
+}
+}
 .footer{
 margin-top: 20px;
 margin-left: 180px;
@@ -690,6 +695,7 @@ height: 50px;
   width:550px;
 }
 
+
 /* 푸터 미디어쿼리*/
 @media screen and (max-width: 400px) {
   td {
@@ -711,6 +717,10 @@ height: 50px;
   }
   .ttt{
       width: 345px;
+      height: 170px;
+  }
+  .room2{
+    height: 60px;
   }
 /* 화면이 768px 미만일 때 */
 @media screen and (max-width: 400px) {
@@ -718,11 +728,12 @@ height: 50px;
   .logogo {
       display: table-cell !important;
       text-align: initial !important;
-      width: 190px;
+      width: 180px;
   }
   .lin img{
       width: 120%;
   }
+
   .logogo img{
       width: 70%;
       padding-left: 40px;
@@ -739,7 +750,8 @@ height: 50px;
 /* 글씨 */
 @media screen and (max-width: 400px) {
   td[style="width: 640px;"] {
-      font-size: 60px; /* 폰트 크기 조정 */
+      font-size: 45px; /* 폰트 크기 조정 */
+      height: 90px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -749,3 +761,6 @@ height: 50px;
 }
 
 }
+
+
+
